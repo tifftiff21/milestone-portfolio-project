@@ -1,0 +1,108 @@
+/***** BASE STYLES *****/
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url(../img/background.png);
+}
+
+#about, #portfolio, #contact {
+  height: 600px;
+}
+
+/*****GRID*****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  /*float: left;*/
+}
+
+.third-width {
+  width: 600px;
+  float: left;
+}
+
+/*****HEADER*****/
+header {
+  height: 800px;
+  background: url('../img/hero-background.png');
+  background-size: cover;
+}
+
+header h3 {
+  /**padding: 65px 0 65px 25px;**/
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+nav {
+  float: right;
+  /*padding: 35px 15px;*/
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: white;
+  padding-left: 45px;
+}
+
+header h1 {
+  width: 1000px;
+  clear: both;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 72px;
+  line-height: 80px;
+  color: white;
+  padding-top: 250px;
+}
+
+header h1 span {
+  color: #8A2BE2;
+}
+
+/*****PORTFOLIO*****/
+#portfolio .full-width {
+  padding: 25px 0;
+}
+
+#portfolio h2 {
+text-align: center;
+color: #8A2BE2;
+font-size: 36px;
+}
+
+#portfolio img {
+  padding-bottom: 30px;
+}
+
+#portfolio h3 {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+#portfolio h4 {
+  font-size: 24px;
+  color: white;
+  font-weight: normal;
+}
+#portfolio p {
+  font-size: 24px;
+  color: white;
+}
+
+/*****ABOUT*****/
+
+#about h2 {
+  font-size: 36px;
+  text-align: center;
+}
