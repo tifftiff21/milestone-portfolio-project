@@ -1,108 +1,158 @@
-/***** BASE STYLES *****/
-body {
-  font-family: 'Poppins', sans-serif;
-  background: url(../img/background.png);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-#about, #portfolio, #contact {
-  height: 600px;
-}
-
-/*****GRID*****/
+/*GRID STYLE*/
 .full-width {
   width: 1200px;
   margin: 0 auto;
+  overflow: auto;
 }
 
 .half-width {
   width: 600px;
-  /*float: left;*/
 }
 
 .third-width {
-  width: 600px;
+  width: 400px;
   float: left;
 }
 
-/*****HEADER*****/
+/*HEADER SECTION*/
 header {
   height: 800px;
-  background: url('../img/hero-background.png');
-  background-size: cover;
-}
-
-header h3 {
-  /**padding: 65px 0 65px 25px;**/
-  font-family: 'Poppins', sans-serif;
-  font-size: 20px;
-  color: white;
-}
-
-nav {
-  float: right;
-  /*padding: 35px 15px;*/
 }
 
 nav ul li {
   display: inline;
+  float: right;
+
 }
 
 nav ul li a {
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
-  font-size: 20px;
-  color: white;
-  padding-left: 45px;
-}
-
-header h1 {
-  width: 1000px;
-  clear: both;
-  font-family: 'Bungee Shade', cursive;
-  font-size: 72px;
-  line-height: 80px;
-  color: white;
-  padding-top: 250px;
-}
-
-header h1 span {
-  color: #8A2BE2;
-}
-
-/*****PORTFOLIO*****/
-#portfolio .full-width {
-  padding: 25px 0;
-}
-
-#portfolio h2 {
-text-align: center;
-color: #8A2BE2;
-font-size: 36px;
-}
-
-#portfolio img {
-  padding-bottom: 30px;
-}
-
-#portfolio h3 {
-  font-size: 24px;
-  color: white;
+  padding-left: 35px;
+  font-family: 'Josefin Slab', serif;
+  font-size: 25px;
+  text-transform: uppercase;
   font-weight: bold;
 }
 
-#portfolio h4 {
-  font-size: 24px;
-  color: white;
-  font-weight: normal;
-}
-#portfolio p {
-  font-size: 24px;
-  color: white;
+
+header .half-width h1 {
+  font-family: 'Josefin Slab', serif;
+  font-size: 60px;
+  margin-top: 200px;
+  margin-bottom: 75px;
 }
 
-/*****ABOUT*****/
+header .half-width h1 span {
+  color: coral;
+}
+header .half-width h2 {
+  font-family: 'Josefin Slab', serif;
+  font-size: 30px;
+}
 
-#about h2 {
-  font-size: 36px;
+
+/*ABOUT SECTION*/
+#about img {
+  width: 400px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+#about {
+  height: 1050px;
+  background: url(../img/Background.png);
   text-align: center;
+}
+
+#about .full-width p {
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px;
+  color: white;
+}
+
+#about .full-width h3 {
+  margin-bottom: 45px;
+  color: white;
+  font-family: 'Paytone One', sans-serif;
+  
+}
+
+#about .full-width h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  color: white;
+  margin-top: 80px;
+}
+/*PORTFOLIO SECTION*/
+#portfolio {
+  height: 850px;
+}
+
+#portfolio h1 {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  margin-top: 100px;
+  font-size: 50px;
+}
+
+#portfolio img {
+  width: 350px;
+  margin-top: 75px;
+}
+
+#portfolio .third-width h3 {
+  font-family: 'Paytone One', sans-serif;
+  margin-top: 45px;
+  text-align: center;
+}
+
+#portfolio .third-width p {
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+/*CONTACT SECTION*/
+#contact {
+  height: 650px;
+  background: url(../img/Background.png);
+  color: white;
+}
+
+#contact h1 {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  font-size: 50px;
+}
+
+#contact .third-width h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Paytone One', sans-serif;
+}
+
+#contact .third-width p {
+  text-align: center;
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px;
+}
+
+#contact ul li {
+  display: inline;
+}
+
+#contact ul li a {
+  padding-left: 55px;
+}
+
+#contact .right {
+  margin-top: 200px;
 }
